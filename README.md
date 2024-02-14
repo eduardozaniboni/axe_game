@@ -68,3 +68,39 @@ int main()
   - Operands
   - Return a value
 - Created some variables
+
+### 15. Loops
+
+#### Summary
+
+- Loops
+  - Repeat code
+- "while" loop
+  Loop condition
+- Infinite loops
+
+### 16. Clear the Background
+
+#### Summary
+
+- BeginDrawing() and EndDrawing()
+  - Setup and teardown
+- ClearBackground();
+  - Clears the canvas to a color
+  - Must call this to avoid flickering
+
+### 17. Function Return Values
+
+#### Summary
+
+- Function Return Values
+- "WindowShouldClose()"
+  - Close our window
+
+### 18. Drawing a Circle
+
+#### Summary
+
+- Used "DrawCircle()" to draw a circle!
+- Coordinates
+  - Placed the circle at the center

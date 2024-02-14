@@ -1,15 +1,16 @@
 #include "raylib.h"
 int main()
 {
-    bool equal{4 == 9};        // false
-    bool notEqual{4 != 9};     // true
-    bool less{4 < 9};          // true
-    bool greater{4 > 9};       // false
-    bool lessEqual{4 <= 9};    // true
-    bool greaterEqual{4 >= 9}; // false
-
     int width;
-    width = 1280;
+    width = 350;
 
-    InitWindow(width, 720, "First Window");
+    InitWindow(width, 200, "First Window");
+
+    while (WindowShouldClose() != true)
+    {
+        BeginDrawing();
+        ClearBackground(WHITE);
+        DrawCircle(175, 100, 25, BLUE);
+        EndDrawing();
+    }
 }
